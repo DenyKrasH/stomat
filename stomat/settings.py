@@ -78,9 +78,9 @@ WSGI_APPLICATION = 'stomat.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'myproject',
-        'USER': 'myprojectuser',
-        'PASSWORD': 'password',
+        'NAME': 'stomat',
+        'USER': 'sharo',
+        'PASSWORD': '',
         'HOST': 'localhost',
         'PORT': '',
     }

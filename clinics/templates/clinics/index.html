@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Клиники</title>
+</head>
+<body>
+{% for clinic in clinics %}
+<a href="clinics/{{ clinic.id }}">{{ clinic.name }}</a><br>
+{% endfor %}
+</body>
+</html>
